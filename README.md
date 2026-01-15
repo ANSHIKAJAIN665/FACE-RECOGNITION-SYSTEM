@@ -10,7 +10,7 @@ This is a complete real-time face recognition-based attendance system built usin
 ## ✅ Features
 
 - Real-time face detection and recognition
-- Student registration with name and enrollment ID (e.g., `123_kritika`)
+- Student registration with name and enrollment ID (e.g., `123_anshika`)
 - Face image saving under `known_faces/` directory
 - Attendance recorded with timestamp and enrollment
 - Flask-based web dashboard with:
@@ -29,7 +29,7 @@ This is a complete real-time face recognition-based attendance system built usin
 
 ```
 face_attendance_system/
-├── known_faces/             # e.g., 123_kritika/
+├── known_faces/             # e.g., 123_anshika/
 ├── templates/
 │   ├── index.html           # Web form for name/enrollment
 │   └── dashboard.html       # Attendance calendar + stats
@@ -49,7 +49,7 @@ face_attendance_system/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/kritika038/face-attendance-system.git
+   git clone https://github.com/ANSHIKAJAIN665/face-attendance-system.git
    ```
 
 2. **Create a virtual environment (optional but recommended)**
@@ -73,8 +73,8 @@ face_attendance_system/
 ```bash
 python add_student.py
 ```
-- Enter full name and enrollment ID (`e.g., 123_kritika`)
-- Face images will be saved inside `known_faces/123_kritika/`
+- Enter full name and enrollment ID (`e.g., 123_anshika`)
+- Face images will be saved inside `known_faces/123_anshika/`
 
 ### 2. Mark Attendance (Desktop Webcam)
 ```bash
@@ -166,5 +166,6 @@ python app.py
 - Web-based face scan via webcam
 
 ---
+
 
 
